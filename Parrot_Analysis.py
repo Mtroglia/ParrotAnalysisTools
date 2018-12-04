@@ -2,7 +2,8 @@ import Parrot_Scapy_Import
 from matplotlib import pyplot as plt
 import numpy as np
 import math
-
+import os
+#%%
 print('running script....')
 pcapName1='PcapData/filteredParrot_DroneBootCamp_Bepop2_078901_PktLen_200To500.pcap'
 
@@ -91,7 +92,9 @@ for i in range(0,len(byteAnalysis)):
     plt.xlim([min(byteAnalysis[byteValue])-5, max(byteAnalysis[byteValue])+5])
 
     plt.hist(byteAnalysis[byteValue], bins=bins, alpha=0.5)
-    plt.title('Parrot Capture Packet Length '+str(prePktSize)+ " "+byteValue+' (fixed number of bins)')
+    title='Parrot Capture Packet Length '+str(prePktSize)+ " "+byteValue+' (fixed number of bins)'
+    plt.title(title)
     plt.xlabel(byteValue+' Values (20 evenly spaced bins)')
     plt.ylabel('count')
     plt.show()
+    plt.savefig("SavedPlots"+os.sep+title.replace(' ','').replace('[',"_").replace(']','_')+".png")
