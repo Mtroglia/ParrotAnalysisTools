@@ -3,16 +3,18 @@ from matplotlib import pyplot as plt
 import numpy as np
 import math
 import os
+import re
 #%%
 print('running script....')
 pcapName1='PcapData/filteredParrot_DroneBootCamp_Bepop2_078901_PktLen_200To500.pcap'
 
 pcapName2 = 'PcapData/DroneBootCamp_Bebop2_078901_130000packets.pcapng'
 #pcapName2
-
 pcapName3= 'PcapData/1_1000_filtered_udp.pcap'
+pcapName4 = 'PcapData/parrot_12_10_filtered_udp.pcapng'
 
-payloadData, transmitMAC, recieveMac, IPpkts, PayloadPkts= Parrot_Scapy_Import.getPcapData(pcapName3)
+fileName = pcapName4
+payloadData, transmitMAC, recieveMac, IPpkts, PayloadPkts= Parrot_Scapy_Import.getPcapData(fileName)
 
 print(payloadData)
 
@@ -29,7 +31,7 @@ for pkt in IPpkts:
         try:
             pktsByPaySize[length].append(pkt)
         except:
-            print('Creating new key')
+            print('Creating new key',length)
             pktsByPaySize.setdefault(length,[])
             pktsByPaySize[length].append(pkt)
     except:
@@ -47,7 +49,7 @@ uniqueLen = sorted(set(payLen))
 payLenCount={}
 #leave it like this instead of using pktsByPaySize becuase of the 0 size payload
 for leng in uniqueLen:
-    payLenCount[len] = pktsByPaySize[leng].__len__()
+    payLenCount[leng] = pktsByPaySize[leng].__len__()
 
 #%%
 bins = np.linspace(math.ceil(min(payLen)),
@@ -85,6 +87,8 @@ for i in range(0,len(byteAnalysis)):
     byteValue = "Byte_"+str(i)
     print('plotting '+byteValue)
     print('Unique Values in ',byteValue, set(byteAnalysis[byteValue]))
+    with open("SavedPlots"+os.sep+"uniqueValues.txt",'a+')as f:
+        f.write('Unique Values in '+str(byteValue)+str(set(byteAnalysis[byteValue]))+'\n')
     bins = np.linspace(math.ceil(min(byteAnalysis[byteValue])),
                        math.floor(max(byteAnalysis[byteValue])),
                        20) # fixed number of bins
@@ -92,9 +96,19 @@ for i in range(0,len(byteAnalysis)):
     plt.xlim([min(byteAnalysis[byteValue])-5, max(byteAnalysis[byteValue])+5])
 
     plt.hist(byteAnalysis[byteValue], bins=bins, alpha=0.5)
-    title='Parrot Capture Packet Length '+str(prePktSize)+ " "+byteValue+' (fixed number of bins)'
+    title='Parrot Capture Packet Length '+str(prePktSize)+ " "+byteValue
     plt.title(title)
+    #=============== Edit title name from saving file name
+    rep = {' ': '', '[': '_', ']': '_', ',': '_'}
+    rep = dict((re.escape(k), v) for k, v in rep.items())
+    pattern = re.compile("|".join(rep.keys()))
+    text = pattern.sub(lambda m: rep[re.escape(m.group(0))], title)
+    #===============
     plt.xlabel(byteValue+' Values (20 evenly spaced bins)')
     plt.ylabel('count')
+    plt.savefig("SavedPlots"+os.sep+text+".png")
     plt.show()
-    plt.savefig("SavedPlots"+os.sep+title.replace(' ','').replace('[',"_").replace(']','_')+".png")
+
+
+#%%
+

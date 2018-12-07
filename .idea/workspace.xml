@@ -2,9 +2,30 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6f9b3da4-3a25-4823-ae75-dbb3f32ab8b9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Parrot_Analysis.py" beforeDir="false" afterPath="$PROJECT_DIR$/Parrot_Analysis.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SavedPlots/ParrotCapturePacketLength[19,20,23]Byte_0(fixednumberofbins).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SavedPlots/ParrotCapturePacketLength[19,20,23]Byte_1(fixednumberofbins).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SavedPlots/ParrotCapturePacketLength[19,20,23]Byte_10(fixednumberofbins).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SavedPlots/ParrotCapturePacketLength[19,20,23]Byte_11(fixednumberofbins).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SavedPlots/ParrotCapturePacketLength[19,20,23]Byte_12(fixednumberofbins).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SavedPlots/ParrotCapturePacketLength[19,20,23]Byte_13(fixednumberofbins).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SavedPlots/ParrotCapturePacketLength[19,20,23]Byte_14(fixednumberofbins).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SavedPlots/ParrotCapturePacketLength[19,20,23]Byte_15(fixednumberofbins).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SavedPlots/ParrotCapturePacketLength[19,20,23]Byte_16(fixednumberofbins).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SavedPlots/ParrotCapturePacketLength[19,20,23]Byte_17(fixednumberofbins).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SavedPlots/ParrotCapturePacketLength[19,20,23]Byte_18(fixednumberofbins).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SavedPlots/ParrotCapturePacketLength[19,20,23]Byte_19(fixednumberofbins).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SavedPlots/ParrotCapturePacketLength[19,20,23]Byte_2(fixednumberofbins).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SavedPlots/ParrotCapturePacketLength[19,20,23]Byte_20(fixednumberofbins).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SavedPlots/ParrotCapturePacketLength[19,20,23]Byte_21(fixednumberofbins).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SavedPlots/ParrotCapturePacketLength[19,20,23]Byte_22(fixednumberofbins).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SavedPlots/ParrotCapturePacketLength[19,20,23]Byte_3(fixednumberofbins).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SavedPlots/ParrotCapturePacketLength[19,20,23]Byte_4(fixednumberofbins).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SavedPlots/ParrotCapturePacketLength[19,20,23]Byte_5(fixednumberofbins).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SavedPlots/ParrotCapturePacketLength[19,20,23]Byte_6(fixednumberofbins).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SavedPlots/ParrotCapturePacketLength[19,20,23]Byte_7(fixednumberofbins).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SavedPlots/ParrotCapturePacketLength[19,20,23]Byte_8(fixednumberofbins).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SavedPlots/ParrotCapturePacketLength[19,20,23]Byte_9(fixednumberofbins).png" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -46,16 +67,16 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="Parrot_Analysis" value="538" />
+          <entry key="Parrot_Analysis" value="577" />
           <entry key="Python Console" value="815" />
-          <entry key="py" value="4006" />
+          <entry key="py" value="4321" />
           <entry key="txt" value="29" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="PLAIN_TEXT" value="29" />
-          <entry key="Python" value="5359" />
+          <entry key="Python" value="5713" />
         </counts>
       </usages-collector>
     </session>
@@ -65,11 +86,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Parrot_Scapy_Import.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="30" selection-start-line="30" selection-end-line="30" />
+            <state relative-caret-position="-663">
+              <caret line="72" column="22" lean-forward="true" selection-start-line="72" selection-start-column="22" selection-end-line="72" selection-end-column="22" />
               <folding>
                 <element signature="e#1#24#0" expanded="true" />
               </folding>
@@ -77,11 +98,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Parrot_Analysis.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="605">
-              <caret line="99" column="89" selection-start-line="99" selection-start-column="89" selection-end-line="99" selection-end-column="89" />
+            <state relative-caret-position="219">
+              <caret line="66" selection-start-line="66" selection-end-line="66" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
               </folding>
@@ -131,9 +152,9 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="-1927" />
-    <option name="y" value="115" />
+  <component name="ProjectFrameBounds" extendedState="1">
+    <option name="x" value="1913" />
+    <option name="y" value="-231" />
     <option name="width" value="974" />
     <option name="height" value="1047" />
   </component>
@@ -153,25 +174,8 @@
             </path>
             <path>
               <item name="ParrotAnalysisTools" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-            </path>
-            <path>
-              <item name="ParrotAnalysisTools" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; Python 3.7 (ParrotAnalysisTools) &gt;" type="70bed36:NamedLibraryElementNode" />
-            </path>
-            <path>
-              <item name="ParrotAnalysisTools" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; Python 3.7 (ParrotAnalysisTools) &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="venv" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ParrotAnalysisTools" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; Python 3.7 (ParrotAnalysisTools) &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="venv" type="462c0819:PsiDirectoryNode" />
-              <item name="Scripts" type="462c0819:PsiDirectoryNode" />
+              <item name="ParrotAnalysisTools" type="462c0819:PsiDirectoryNode" />
+              <item name="PcapData" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -300,28 +304,29 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="0" width="974" height="1167" extended-state="0" />
+    <frame x="1913" y="-231" width="974" height="1047" extended-state="1" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49695122" visible="true" weight="0.14660831" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49695122" visible="true" weight="0.42888403" />
       <window_info id="Structure" order="1" sideWeight="0.5030488" side_tool="true" weight="0.15777439" />
       <window_info id="Favorites" order="2" sideWeight="0.5030488" side_tool="true" weight="0.15777439" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.41991925" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="Docker" order="6" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.3286219" />
-      <window_info anchor="bottom" id="Python Console" order="11" visible="true" weight="0.26789168" />
+      <window_info anchor="bottom" id="Debug" order="2" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="3" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="4" weight="0.4" />
+      <window_info anchor="bottom" id="Docker" order="5" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="6" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.3286219" />
+      <window_info anchor="bottom" id="Run" order="10" weight="0.41931033" />
+      <window_info active="true" anchor="bottom" id="Python Console" order="11" visible="true" weight="0.30306345" />
       <window_info anchor="bottom" id="TODO" order="12" weight="0.32858837" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info active="true" anchor="right" id="SciView" order="3" visible="true" weight="0.07986871" />
+      <window_info anchor="right" id="SciView" order="3" visible="true" weight="0.5142232" />
       <window_info anchor="right" x="0" y="0" width="268" height="802" id="Documentation" order="4" side_tool="true" visible="true" weight="0.05597015" />
       <window_info anchor="right" id="Database" order="5" />
     </layout>
@@ -370,22 +375,22 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Parrot_Scapy_Import.py">
+    <entry file="file://$PROJECT_DIR$/Parrot_Analysis.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="30" selection-start-line="30" selection-end-line="30" />
+        <state relative-caret-position="219">
+          <caret line="66" selection-start-line="66" selection-end-line="66" />
           <folding>
-            <element signature="e#1#24#0" expanded="true" />
+            <element signature="e#0#26#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Parrot_Analysis.py">
+    <entry file="file://$PROJECT_DIR$/Parrot_Scapy_Import.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="605">
-          <caret line="99" column="89" selection-start-line="99" selection-start-column="89" selection-end-line="99" selection-end-column="89" />
+        <state relative-caret-position="-663">
+          <caret line="72" column="22" lean-forward="true" selection-start-line="72" selection-start-column="22" selection-end-line="72" selection-end-column="22" />
           <folding>
-            <element signature="e#0#26#0" expanded="true" />
+            <element signature="e#1#24#0" expanded="true" />
           </folding>
         </state>
       </provider>
